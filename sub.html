@@ -11,21 +11,42 @@
 
     img{display:block;}
 
-    #contents{text-align: center;}
-    #contents p{margin-top:20px; margin-bottom:60px;color:#B9B9B9;}
+    .contents{text-align: center; width:1080px; margin:0 auto;}
+    .contents p{margin-top:20px; margin-bottom:60px;color:#B9B9B9;}
 
-    #contents-text{text-align:center;font-size: 15px; margin:500px auto; width:1080px; line-height: 200%;}
+    .contents-text{text-align:center;font-size: 15px; margin:500px auto; width:1080px; line-height: 200%;}
+
+    .d{margin-top:20px;}
   </style>
 </head>
 
 <body>
-<div id="all">
+<div id="header">
   <h1><a href="main.html" target="_self">monthly GM</a></h1>
+</div>
+
 <div id="subject">
   <h3>월간 광명 2018년 3월호</h3>
   <h2>非부산</h2>
 </div>
-<div id="contents">
+
+<!--로빈 사진 시작-->
+<div class="contents">
+  <img src="images/r_1.jpg">
+  <p>부산을 떠나는 여행운전자의 설레임</p>
+  <img src="images/r_2.jpg">
+  <p>친구들을 바라보는 친구의 모습, 포항에서</p>
+</div>
+
+<div class="contents-text">
+  <p class="d">by 로빈</p>
+</div>
+<!--로빈 사진 끝-->
+
+<hr>
+
+<!--둥둥 사진 시작-->
+<div class="contents">
   <img src="images/DSC_2427.jpg">
   <p>서울순두부</p>
   <img src="images/DSC_2429.jpg">
@@ -38,21 +59,23 @@
   <p>경주집</p>
 </div>
 
-<div id="contents-text">
-  '부산이 아닌 것'<br>이라는 주제에 본질에 초점을 맞추어<br>부산에 있지만, 다른 도시명이 들어간 간판을 담았습니다.<br>by 둥둥
+<div class="contents-text">
+  '부산이 아닌 것'<br>이라는 주제에 본질에 초점을 맞추어<br>부산에 있지만, 다른 도시명이 들어간 간판을 담았습니다.
+  <p class="d">by 둥둥</p>
 </div>
+<!--둥둥 사진 끝-->
 
-  <div id="list">
+
+<div id="footer">
+  <div id="menu">
     <ul>
-      <li><a href="about.html" target="_self">about</a></li>
-      <li><a href="contact.html" target="_self">contact</a></li>
-    </ul>
+      <li id="m1"><a href="about.html" target="_self">about</a></li>
+      <li id="m"><a href="contact.html" target="_self">contact</a></li>
+    </ul><div class="space"></div>
   </div>
 
-  <div id="footer">
-    <h1><a href="main.html" target="_self">monthly GM</a></h1>
-  </div>
-
+  <h1><a href="main.html" target="_self">monthly GM</a></h1>
 </div>
+
 </body>
 </html>
